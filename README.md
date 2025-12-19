@@ -1,5 +1,12 @@
 # Tech Stack Fundamentals Workshops
 
+## 👨‍🏫 Session Conductors
+
+<a href="https://github.com/HimathX"><img src="https://github.com/HimathX.png" width="60" height="60" style="border-radius:50%" alt="HimathX"/></a>
+<a href="https://github.com/SuhasDissa"><img src="https://github.com/SuhasDissa.png" width="60" height="60" style="border-radius:50%" alt="SuhasDissa"/></a>
+<a href="https://github.com/NipunSGeeTH"><img src="https://github.com/NipunSGeeTH.png" width="60" height="60" style="border-radius:50%" alt="NipunSGeeTH"/></a>
+<a href="https://github.com/Kalana-Pankaja"><img src="https://github.com/Kalana-Pankaja.png" width="60" height="60" style="border-radius:50%" alt="Kalana-Pankaja"/></a>
+
 ---
 
 ## Repository Structure
@@ -45,52 +52,48 @@ tech-stack-fundamentals-cse24/
 
 ### Step 2: Clone Your Forked Repository
 
+1. On your forked repo page, click the green **"Code"** button
+2. Copy the URL
+3. Open **Terminal** (or Git Bash) and run:
+
 ```bash
 git clone https://github.com/YOUR_USERNAME/tech-stack-fundamentals-cse24.git
-cd tech-stack-fundamentals-cse24
 ```
 
-> Replace `YOUR_USERNAME` with your GitHub username
+> 💡 Replace `YOUR_USERNAME` with your GitHub username
 
 ### Step 3: Create Your Submission Folder
 
-**Naming Format:** `[First_Name]_[Last_Name]`
+1. Open the cloned folder in **File Explorer**
+2. Navigate to `Task 01` → `submissions`
+3. Create a new folder with your name: `Firstname_Lastname`
+4. Inside your folder, create:
+   - `index.html`
+   - `style.css`
+   - `images/` folder (for any images)
 
-```bash
-# Navigate to task submissions folder
-cd "Task 01/submissions"
-
-# Create your folder
-mkdir Himath_Jayasinghe
-cd Himath_Jayasinghe
-
-# Create your HTML file
-code index.html
+**Example folder structure:**
 ```
-
-**Examples:**
-- `Himath_Jayasinghe/index.html`
-- `Anusha_Perera/index.html`
-- `Kamal_Silva/index.html`
+submissions/
+└── Himath_Jayasinghe/
+    ├── index.html
+    ├── style.css
+    └── images/
+```
 
 ### Step 4: Complete Your Task
 
-Write your code in `index.html` according to the task instructions in the README.md of that task folder.
+Write your code according to the task instructions in the `README.md` of that task folder.
 
 ### Step 5: Commit and Push to Your Fork
 
+1. Open **Terminal** in the repository folder
+2. Run these commands:
+
 ```bash
-# Return to repository root
-cd ../../..
-
-# Stage your changes
 git add .
-
-# Commit with clear message
-git commit -m "Add Task 1: Himath Jayasinghe"
-
-# Push to YOUR forked repository
-git push origin main
+git commit -m "Task 1 Submission: Your Name"
+git push
 ```
 
 ### Step 6: Create a Pull Request
@@ -107,82 +110,32 @@ git push origin main
 
 ## Keeping Your Fork Updated
 
-Before starting a new task, sync your fork with the original repository:
+Before starting a new task, sync your fork on GitHub:
+
+1. Go to your forked repository on GitHub
+2. Click **"Sync fork"** button (below the green Code button)
+3. Click **"Update branch"**
+4. Pull the changes to your computer:
 
 ```bash
-# Add the original repository as upstream (only needed once)
-git remote add upstream https://github.com/HimathX/tech-stack-fundamentals-cse24.git
-
-# Fetch and merge updates
-git fetch upstream
-git merge upstream/main
-
-# Push updates to your fork
-git push origin main
+git pull
 ```
 
 ---
 
-## Quick Reference
-
-```bash
-# 1. Fork the repository on GitHub first!
-
-# 2. Clone YOUR fork
-git clone https://github.com/YOUR_USERNAME/tech-stack-fundamentals-cse24.git
-
-# 3. Create submission folder
-cd "Task 01/submissions"
-mkdir Your_Name
-cd Your_Name
-
-# 4. Create index.html
-code index.html
-
-# 5. Stage and commit
-cd ../../..
-git add .
-git commit -m "Task 1: Your Name"
-git push origin main
-
-# 6. Go to GitHub and create a Pull Request!
-```
-
----
-
-## Troubleshooting
+## ❓ Troubleshooting
 
 **Cannot push to repository?**
 
-You're likely trying to push to the original repository instead of your fork. Make sure you cloned YOUR fork:
-```bash
-# Check your remote URL
-git remote -v
-
-# It should show YOUR username, not HimathX
-# If wrong, update it:
-git remote set-url origin https://github.com/YOUR_USERNAME/tech-stack-fundamentals-cse24.git
-```
+Make sure you cloned YOUR fork (not the original). Your URL should have YOUR username in it.
 
 **Pull Request has conflicts?**
 
-Sync your fork with the original repository:
-```bash
-git fetch upstream
-git merge upstream/main
-# Resolve any conflicts
-git add .
-git commit -m "Resolve merge conflicts"
-git push origin main
-```
+Sync your fork using the "Sync fork" button on GitHub, then run `git pull` locally.
 
-**Forgot to fork first?**
-1. Fork the repository on GitHub
-2. Update your remote URL:
-```bash
-git remote set-url origin https://github.com/YOUR_USERNAME/tech-stack-fundamentals-cse24.git
-git push origin main
-```
+**Need help?**
+
+Ask one of the session conductors! 👆
 
 ---
 
@@ -235,12 +188,9 @@ Download from [https://desktop.github.com/](https://desktop.github.com/) and sig
 
 ### Keeping Your Fork Updated (GitHub Desktop)
 
-1. In GitHub Desktop, go to **Branch** → **Merge into current branch**
-2. Select **upstream/main**
-3. Click **Merge upstream/main into main**
-4. Click **Push origin**
-
-> 💡 **Tip:** If you don't see upstream, go to **Repository** → **Repository settings** → **Remote** and add the original repo URL.
+1. Click **"Fetch origin"** at the top
+2. If there's a **"Sync fork"** option, click it
+3. Click **"Pull origin"** to get the latest changes
 
 ---
 
