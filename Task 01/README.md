@@ -2,8 +2,8 @@
 
 > *"Your portfolio is your first impression in the tech world!"* 💼
 
-![Last Updated](https://img.shields.io/badge/Last%20Updated-2025-12-19%2006%3A26%20UTC-blue)
-![Submissions](https://img.shields.io/badge/Submissions-2-green)
+![Last Updated](https://img.shields.io/badge/Last%20Updated-2025-12-19%2006%3A33%20UTC-blue)
+![Submissions](https://img.shields.io/badge/Submissions-3-green)
 
 ## 🎯 The Challenge
 Build a professional portfolio website showcasing your skills, projects, and background using semantic HTML and responsive CSS!
@@ -13,9 +13,12 @@ Build a professional portfolio website showcasing your skills, projects, and bac
 ## 🏅 Hall of Fame
 
 ### 🥇 First Place
-**suhas** - 18/100
+**vishwa** - 60/100
 
 ### 🥈 Second Place
+**suhas** - 18/100
+
+### 🥉 Third Place
 **Suhas_Dissa** - 6/100
 
 ---
@@ -24,8 +27,9 @@ Build a professional portfolio website showcasing your skills, projects, and bac
 
 | Rank | Student | Score | Grade | Title | Last Updated |
 |:----:|---------|:-----:|:-----:|-------|--------------|
-| 🥇 | **suhas** | 18/100 | 🔨 F | 👑 Portfolio Legend | 2025-12-19 06:26 UTC |
-| 🥈 | **Suhas_Dissa** | 6/100 | 🔨 F | 🥈 Design Master | 2025-12-18 19:28 UTC |
+| 🥇 | **vishwa** | 60/100 | 📝 D | 👑 Portfolio Legend | 2025-12-19 06:33 UTC |
+| 🥈 | **suhas** | 18/100 | 🔨 F | 🥈 Design Master | 2025-12-19 06:26 UTC |
+| 🥉 | **Suhas_Dissa** | 6/100 | 🔨 F | 🥉 Rising Designer | 2025-12-18 19:28 UTC |
 
 ---
 
@@ -43,6 +47,7 @@ Build a professional portfolio website showcasing your skills, projects, and bac
 
 ## 🚀 Recent Activity
 
+- **vishwa** updated their portfolio → 60/100 (2025-12-19 06:33 UTC)
 - **suhas** updated their portfolio → 18/100 (2025-12-19 06:26 UTC)
 - **Suhas_Dissa** updated their portfolio → 6/100 (2025-12-18 19:28 UTC)
 
