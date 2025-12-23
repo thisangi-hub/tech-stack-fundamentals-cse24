@@ -129,24 +129,22 @@
   "athishaya.j": {
     "student": "athishaya.j",
     "file_structure": 7,
-    "semantic_html": 20,
-    "functionality": 13,
-    "design": 4,
-    "responsive": 4,
+    "semantic_html": 12,
+    "functionality": 18,
+    "design": 15,
+    "responsive": 8,
     "issues": [
       "\u274c Missing images/ folder",
+      "\u274c No <nav> tag",
+      "\u274c No <header> tag",
       "\u26a0\ufe0f Incomplete anchor navigation",
-      "\u26a0\ufe0f No details/summary (collapsible sections)",
-      "\u26a0\ufe0f Minimal color styling",
       "\u26a0\ufe0f No grid/flex layout",
-      "\u26a0\ufe0f No hover effects",
-      "\u274c No media queries - not responsive",
-      "\u26a0\ufe0f May use fixed pixel widths"
+      "\u274c No media queries - not responsive"
     ],
-    "total": 48,
-    "grade": "F",
-    "last_updated": "2025-12-19 09:49 UTC",
-    "submission_count": 3
+    "total": 60,
+    "grade": "D",
+    "last_updated": "2025-12-22 17:36 UTC",
+    "submission_count": 4
   },
   "Dihini": {
     "student": "Dihini",
@@ -292,6 +290,48 @@
     "total": 76,
     "grade": "C",
     "last_updated": "2025-12-19 17:46 UTC",
+    "submission_count": 1
+  },
+  "Sithuka Jayawardhana": {
+    "student": "Sithuka Jayawardhana",
+    "file_structure": 7,
+    "semantic_html": 1,
+    "functionality": 3,
+    "design": 25,
+    "responsive": 20,
+    "issues": [
+      "\u26a0\ufe0f No profile photo in images/",
+      "\u274c No <nav> tag",
+      "\u274c No <header> tag",
+      "\u274c No <main> tag",
+      "\u26a0\ufe0f No <article> tags for projects",
+      "\u26a0\ufe0f Incomplete anchor navigation",
+      "\u274c No form or labels",
+      "\u26a0\ufe0f Limited input fields",
+      "\u26a0\ufe0f No details/summary (collapsible sections)"
+    ],
+    "total": 56,
+    "grade": "F",
+    "last_updated": "2025-12-23 06:30 UTC",
+    "submission_count": 1
+  },
+  "Kalaippiriyan_Jeyaganesh": {
+    "student": "Kalaippiriyan_Jeyaganesh",
+    "file_structure": 10,
+    "semantic_html": 10,
+    "functionality": 13,
+    "design": 23,
+    "responsive": 20,
+    "issues": [
+      "\u274c No <nav> tag",
+      "\u274c No <header> tag",
+      "\u26a0\ufe0f No details/summary (collapsible sections)",
+      "\u274c No lists (ul/ol)",
+      "\u26a0\ufe0f Missing alt text on images"
+    ],
+    "total": 76,
+    "grade": "C",
+    "last_updated": "2025-12-23 11:22 UTC",
     "submission_count": 1
   }
 }
